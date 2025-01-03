@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IE+Guides&family=Rubik+Vinyl&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.men{
+    text-align: center;
+}
+.sayohat{
+    width: 100%;
+    background-color: rgb(27, 57, 145);
+    color: aqua;
+    height: 50px;
+    padding: 10px 0;
+    transition: 0.5s;
+}
+.sayohat:hover{
+    cursor: pointer;
+    background-color: yellowgreen;
+    color: brown;
+}
+.istanbul{
+    font-family: "Playwrite IE Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.img img{
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+}
+.rasmlar{
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(22, 191, 191);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: red;
+}
+.rasmlar:hover{
+    background-color: darkorange;
+    color: white;
+    cursor: pointer;
+}
+.istanbul-rasmlari{
+    display: flex;
+    flex-wrap: wrap;
+}
+.istanbul-rasmlari img{
+    width: 500px;
+    height: 300px;
+    opacity: 0.8;
+}
+.istanbul-rasmlari img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.h1{
+    text-align: center;
+    color: red;
+}
+p{
+    color: grey;
+}
+header p{
+    color: blue;
+    text-align: center;
+}
